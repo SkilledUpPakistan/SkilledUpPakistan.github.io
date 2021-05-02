@@ -3066,10 +3066,10 @@ class RedirectLoggedInService {
         let user = JSON.parse(_user !== null && _user !== void 0 ? _user : '{"role" : "none"}');
         if (user.role == "admin") {
             this.router.navigateByUrl("/Admin/courses");
-            return true;
+            return false;
         }
         else {
-            return false;
+            return true;
         }
     }
 }
@@ -3103,9 +3103,7 @@ class AdminOnlyService {
     canActivate(route, state) {
         var _a;
         let _user = (_a = localStorage.getItem("user")) !== null && _a !== void 0 ? _a : '{"role" : "none"}';
-        console.log(_user);
         let user = JSON.parse(_user);
-        console.log(user);
         if (user.role == "admin") {
             return true;
         }
@@ -3272,7 +3270,7 @@ class LoginComponent {
         this.auth.login().then(response => {
             this.setRole(response);
             this.auth.isLoggedIn.next(true);
-            this.router.navigateByUrl("/Admin");
+            this.router.navigateByUrl("/Admin/courses");
         });
     }
     setRole(data) {
