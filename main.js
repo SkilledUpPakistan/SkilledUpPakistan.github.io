@@ -1863,7 +1863,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var ng_zorro_antd_menu__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ng-zorro-antd/menu */ "Q8cG");
 /* harmony import */ var _user_user_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./user/user.component */ "3nXK");
 /* harmony import */ var _challan_form_challan_form_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./challan-form/challan-form.component */ "Dydw");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _student_registration_student_registration_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./student-registration/student-registration.component */ "vxtS");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
 
 
 
@@ -1905,8 +1907,8 @@ Object(_angular_common__WEBPACK_IMPORTED_MODULE_25__["registerLocaleData"])(_ang
 class AppModule {
 }
 AppModule.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); };
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_34__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]] });
-AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_34__["ɵɵdefineInjector"]({ providers: [{ provide: ng_zorro_antd_i18n__WEBPACK_IMPORTED_MODULE_24__["NZ_I18N"], useValue: ng_zorro_antd_i18n__WEBPACK_IMPORTED_MODULE_24__["en_US"] }], imports: [[
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_35__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_35__["ɵɵdefineInjector"]({ providers: [{ provide: ng_zorro_antd_i18n__WEBPACK_IMPORTED_MODULE_24__["NZ_I18N"], useValue: ng_zorro_antd_i18n__WEBPACK_IMPORTED_MODULE_24__["en_US"] }], imports: [[
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_1__["AppRoutingModule"],
             _angular_fire__WEBPACK_IMPORTED_MODULE_18__["AngularFireModule"].initializeApp(src_environments_environment__WEBPACK_IMPORTED_MODULE_20__["environment"].firebaseConfig),
@@ -1921,7 +1923,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_34__["ɵɵdefineInjecto
             ng_zorro_antd_layout__WEBPACK_IMPORTED_MODULE_30__["NzLayoutModule"],
             ng_zorro_antd_menu__WEBPACK_IMPORTED_MODULE_31__["NzMenuModule"]
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_34__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_35__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
         _header_header_component__WEBPACK_IMPORTED_MODULE_3__["HeaderComponent"],
         _footer_footer_component__WEBPACK_IMPORTED_MODULE_4__["FooterComponent"],
         _apply_now_apply_now_component__WEBPACK_IMPORTED_MODULE_5__["ApplyNowComponent"],
@@ -1938,7 +1940,8 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_34__["ɵɵdefineInjecto
         _carousel_carousel_component__WEBPACK_IMPORTED_MODULE_16__["CarouselComponent"],
         _available_programms_available_programms_component__WEBPACK_IMPORTED_MODULE_17__["AvailableProgrammsComponent"],
         _user_user_component__WEBPACK_IMPORTED_MODULE_32__["UserComponent"],
-        _challan_form_challan_form_component__WEBPACK_IMPORTED_MODULE_33__["ChallanFormComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _challan_form_challan_form_component__WEBPACK_IMPORTED_MODULE_33__["ChallanFormComponent"],
+        _student_registration_student_registration_component__WEBPACK_IMPORTED_MODULE_34__["StudentRegistrationComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_1__["AppRoutingModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_18__["AngularFireModule"], _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_19__["AngularFirestoreModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_21__["FormsModule"],
         _angular_forms__WEBPACK_IMPORTED_MODULE_21__["ReactiveFormsModule"],
@@ -2207,7 +2210,7 @@ class HeaderComponent {
     }
 }
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_google_auth_service__WEBPACK_IMPORTED_MODULE_1__["GoogleAuthService"])); };
-HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 62, vars: 0, consts: [[1, "navbar", "p-0"], [1, "container"], ["routerLink", "/user/home", 1, "navbar-brand"], ["src", "assets/images/logo.png", "alt", "Skilled up Pakistan Logo", "height", "130px", "srcset", ""], [1, "text-primary"], ["aria-hidden", "true", 1, "fa", "fa-phone"], ["href", "https://www.instagram.com/skilled_up_pakistan/"], [1, "fa", "fa-instagram"], ["href", "https://www.facebook.com/skilleduppakistan/"], [1, "fa", "fa-facebook"], ["href", "https://api.whatsapp.com/send?phone=923249893921"], [1, "fa", "fa-whatsapp"], [1, "navbar", "sticky-top", "navbar-expand-lg", "navbar-dark", "bg-primary", 2, "min-height", "60px"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mx-auto"], [1, "nav-item", "active"], ["routerLink", "/user/home", 1, "nav-link"], [1, "sr-only"], [1, "nav-item"], ["routerLink", "/user/terms-and-conditions", 1, "nav-link"], [1, "nav-item", "dropdown"], ["id", "navbarDropdown", "role", "button", "data-toggle", "dropdown", "aria-haspopup", "true", "aria-expanded", "false", 1, "nav-link", "dropdown-toggle"], ["aria-labelledby", "navbarDropdown", 1, "dropdown-menu"], ["routerLink", "/user/upcoming-courses", 1, "dropdown-item"], ["routerLink", "/user/admission-process", 1, "nav-link"], ["routerLink", "/user/faqs", 1, "nav-link"], ["routerLink", "/user/about-us", 1, "dropdown-item"], ["routerLink", "/user/ambassador-signup", 1, "dropdown-item"], ["href", "https://skilleduppakistan.blogspot.com/", 1, "nav-link"], ["routerLink", "/user/contact-us", 1, "nav-link"], ["href", "https://docs.google.com/forms/d/1dv5a7v0JseSU3-xSgc9Qp5tJXcUVRWGKIr2J3zD2_M0/edit", 1, "nav-link"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 65, vars: 0, consts: [[1, "navbar", "p-0"], [1, "container"], ["routerLink", "/user/home", 1, "navbar-brand"], ["src", "assets/images/logo.png", "alt", "Skilled up Pakistan Logo", "height", "130px", "srcset", ""], [1, "text-primary"], ["aria-hidden", "true", 1, "fa", "fa-phone"], ["href", "https://www.instagram.com/skilled_up_pakistan/"], [1, "fa", "fa-instagram"], ["href", "https://www.facebook.com/skilleduppakistan/"], [1, "fa", "fa-facebook"], ["href", "https://api.whatsapp.com/send?phone=923249893921"], [1, "fa", "fa-whatsapp"], [1, "navbar", "sticky-top", "navbar-expand-lg", "navbar-dark", "bg-primary", 2, "min-height", "60px"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mx-auto"], [1, "nav-item", "active"], ["routerLink", "/user/home", 1, "nav-link"], [1, "sr-only"], [1, "nav-item"], ["routerLink", "/user/terms-and-conditions", 1, "nav-link"], [1, "nav-item", "dropdown"], ["id", "navbarDropdown", "role", "button", "data-toggle", "dropdown", "aria-haspopup", "true", "aria-expanded", "false", 1, "nav-link", "dropdown-toggle"], ["aria-labelledby", "navbarDropdown", 1, "dropdown-menu"], ["routerLink", "/user/upcoming-courses", 1, "dropdown-item"], ["routerLink", "/user/admission-process", 1, "nav-link"], ["routerLink", "/user/faqs", 1, "nav-link"], ["routerLink", "/user/about-us", 1, "dropdown-item"], ["routerLink", "/user/ambassador-signup", 1, "dropdown-item"], ["href", "https://skilleduppakistan.blogspot.com/", 1, "nav-link"], ["routerLink", "/user/student-registration", 1, "nav-link"], ["routerLink", "/user/contact-us", 1, "nav-link"], ["href", "https://docs.google.com/forms/d/1dv5a7v0JseSU3-xSgc9Qp5tJXcUVRWGKIr2J3zD2_M0/edit", 1, "nav-link"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 2);
@@ -2297,12 +2300,17 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "li", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "a", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Contact Us");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Student Registration");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "li", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "a", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Fee Challan Verification");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Contact Us");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "li", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "a", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "Fee Challan Verification");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -3139,10 +3147,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _contact_us_contact_us_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./contact-us/contact-us.component */ "NqkC");
 /* harmony import */ var _faqs_faqs_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./faqs/faqs.component */ "Y+cp");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./home/home.component */ "9vUh");
-/* harmony import */ var _terms_and_conditions_terms_and_conditions_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./terms-and-conditions/terms-and-conditions.component */ "9JLK");
-/* harmony import */ var _upcoming_courses_upcoming_courses_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./upcoming-courses/upcoming-courses.component */ "nR0E");
-/* harmony import */ var _user_user_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./user/user.component */ "3nXK");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _student_registration_student_registration_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./student-registration/student-registration.component */ "vxtS");
+/* harmony import */ var _terms_and_conditions_terms_and_conditions_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./terms-and-conditions/terms-and-conditions.component */ "9JLK");
+/* harmony import */ var _upcoming_courses_upcoming_courses_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./upcoming-courses/upcoming-courses.component */ "nR0E");
+/* harmony import */ var _user_user_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./user/user.component */ "3nXK");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
 
 
 
@@ -3160,7 +3170,7 @@ __webpack_require__.r(__webpack_exports__);
 const routes = [
     {
         path: "user",
-        component: _user_user_component__WEBPACK_IMPORTED_MODULE_11__["UserComponent"],
+        component: _user_user_component__WEBPACK_IMPORTED_MODULE_12__["UserComponent"],
         children: [
             {
                 path: "home",
@@ -3172,7 +3182,7 @@ const routes = [
             },
             {
                 path: 'upcoming-courses',
-                component: _upcoming_courses_upcoming_courses_component__WEBPACK_IMPORTED_MODULE_10__["UpcomingCoursesComponent"]
+                component: _upcoming_courses_upcoming_courses_component__WEBPACK_IMPORTED_MODULE_11__["UpcomingCoursesComponent"]
             },
             {
                 path: 'admission-process',
@@ -3196,11 +3206,15 @@ const routes = [
             },
             {
                 path: "terms-and-conditions",
-                component: _terms_and_conditions_terms_and_conditions_component__WEBPACK_IMPORTED_MODULE_9__["TermsAndConditionsComponent"]
+                component: _terms_and_conditions_terms_and_conditions_component__WEBPACK_IMPORTED_MODULE_10__["TermsAndConditionsComponent"]
             },
             {
                 path: "challan-form/:id",
                 component: _challan_form_challan_form_component__WEBPACK_IMPORTED_MODULE_5__["ChallanFormComponent"]
+            },
+            {
+                path: "student-registration",
+                component: _student_registration_student_registration_component__WEBPACK_IMPORTED_MODULE_9__["StudentRegistrationComponent"]
             },
             {
                 path: "",
@@ -3222,9 +3236,9 @@ const routes = [
 class AppRoutingModule {
 }
 AppRoutingModule.ɵfac = function AppRoutingModule_Factory(t) { return new (t || AppRoutingModule)(); };
-AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineNgModule"]({ type: AppRoutingModule });
-AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineInjector"]({ imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forRoot(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵsetNgModuleScope"](AppRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] }); })();
+AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdefineNgModule"]({ type: AppRoutingModule });
+AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵdefineInjector"]({ imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forRoot(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_13__["ɵɵsetNgModuleScope"](AppRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] }); })();
 
 
 /***/ }),
@@ -3307,6 +3321,144 @@ LoginComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, directives: [ng_zorro_antd_button__WEBPACK_IMPORTED_MODULE_5__["NzButtonComponent"], ng_zorro_antd_core_wave__WEBPACK_IMPORTED_MODULE_6__["NzWaveDirective"], ng_zorro_antd_core_transition_patch__WEBPACK_IMPORTED_MODULE_7__["ɵNzTransitionPatchDirective"], ng_zorro_antd_icon__WEBPACK_IMPORTED_MODULE_8__["NzIconDirective"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJsb2dpbi5jb21wb25lbnQuc2NzcyJ9 */"] });
+
+
+/***/ }),
+
+/***/ "vxtS":
+/*!************************************************************************!*\
+  !*** ./src/app/student-registration/student-registration.component.ts ***!
+  \************************************************************************/
+/*! exports provided: StudentRegistrationComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentRegistrationComponent", function() { return StudentRegistrationComponent; });
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/forms */ "3Pt+");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/fire/firestore */ "I/3d");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "ofXK");
+
+
+
+
+
+function StudentRegistrationComponent_button_27_Template(rf, ctx) { if (rf & 1) {
+    const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "button", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function StudentRegistrationComponent_button_27_Template_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r3); const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](); return ctx_r2.create(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, " Submit ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("disabled", ctx_r0.studentRegistrationForm.invalid);
+} }
+function StudentRegistrationComponent_div_28_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "span", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "Loading...");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} }
+class StudentRegistrationComponent {
+    constructor(afs) {
+        this.afs = afs;
+        this.loading = false;
+        this.studentRegistrationForm = this.createStudentRegistrationForm();
+    }
+    ngOnInit() {
+    }
+    createStudentRegistrationForm() {
+        return new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormGroup"]({
+            name: new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["Validators"].required]),
+            phone: new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["Validators"].required]),
+            emailAddress: new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_0__["Validators"].email]),
+            city: new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["Validators"].required])
+        });
+    }
+    create() {
+        let data = this.studentRegistrationForm.value;
+        if (this.studentRegistrationForm.valid) {
+            this.loading = true;
+            this.afs.collection("StudentRegistrationRequest").add(data).then(resp => {
+                this.studentRegistrationForm.reset();
+                this.loading = false;
+            }, error => {
+                this.loading = false;
+            });
+        }
+    }
+}
+StudentRegistrationComponent.ɵfac = function StudentRegistrationComponent_Factory(t) { return new (t || StudentRegistrationComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__["AngularFirestore"])); };
+StudentRegistrationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: StudentRegistrationComponent, selectors: [["app-student-registration"]], decls: 32, vars: 7, consts: [[1, "container"], [1, "row", "justify-content-center"], [1, "col-sm-12", "col-md-6", "col-lg-6"], [3, "formGroup"], [1, "form-group"], ["for", "name"], ["type", "text", "name", "name", "formControlName", "name", "placeholder", "Name", "id", "name", 1, "form-control", 3, "ngClass"], ["for", "phone"], ["type", "text", "name", "phone", "id", "phone", "formControlName", "phone", "placeholder", "Phone Number", 1, "form-control", 3, "ngClass"], ["for", "email"], ["type", "email", "name", "email", "id", "email", "formControlName", "emailAddress", "placeholder", "Email Address", 1, "form-control", 3, "ngClass"], ["for", "cnic"], ["type", "text", "name", "city", "id", "city", "formControlName", "city", "placeholder", "e.g. Lahore", 1, "form-control", 3, "ngClass"], ["id", "btnAdmission", "class", "btn btn-primary", 3, "disabled", "click", 4, "ngIf"], ["class", "spinner-border text-success", "role", "status", 4, "ngIf"], ["id", "btnAdmission", 1, "btn", "btn-primary", 3, "disabled", "click"], ["role", "status", 1, "spinner-border", "text-success"], [1, "sr-only"]], template: function StudentRegistrationComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "article", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6, "Student Registration Form");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "form", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "label", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "Name");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](13, "input", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](15, "label", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](16, "Phone");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](17, "input", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](19, "label", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](20, "Email Address");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](21, "input", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](22, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "label", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](24, "City");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](25, "input", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](26, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](27, StudentRegistrationComponent_button_27_Template, 2, 1, "button", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](28, StudentRegistrationComponent_div_28_Template, 3, 0, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](29, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](30, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](31, "br");
+    } if (rf & 2) {
+        let tmp_1_0 = null;
+        let tmp_2_0 = null;
+        let tmp_3_0 = null;
+        let tmp_4_0 = null;
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("formGroup", ctx.studentRegistrationForm);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", (ctx.studentRegistrationForm == null ? null : (tmp_1_0 = ctx.studentRegistrationForm.get("name")) == null ? null : tmp_1_0.invalid) && (ctx.studentRegistrationForm == null ? null : (tmp_1_0 = ctx.studentRegistrationForm.get("name")) == null ? null : tmp_1_0.dirty) ? "is-invalid" : "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", (ctx.studentRegistrationForm == null ? null : (tmp_2_0 = ctx.studentRegistrationForm.get("phone")) == null ? null : tmp_2_0.invalid) && (ctx.studentRegistrationForm == null ? null : (tmp_2_0 = ctx.studentRegistrationForm.get("phone")) == null ? null : tmp_2_0.dirty) ? "is-invalid" : "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", (ctx.studentRegistrationForm == null ? null : (tmp_3_0 = ctx.studentRegistrationForm.get("email")) == null ? null : tmp_3_0.invalid) && (ctx.studentRegistrationForm == null ? null : (tmp_3_0 = ctx.studentRegistrationForm.get("email")) == null ? null : tmp_3_0.dirty) ? "is-invalid" : "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", (ctx.studentRegistrationForm == null ? null : (tmp_4_0 = ctx.studentRegistrationForm.get("city")) == null ? null : tmp_4_0.invalid) && (ctx.studentRegistrationForm == null ? null : (tmp_4_0 = ctx.studentRegistrationForm.get("city")) == null ? null : tmp_4_0.dirty) ? "is-invalid" : "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.loading);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.loading);
+    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["ɵangular_packages_forms_forms_ba"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgClass"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHVkZW50LXJlZ2lzdHJhdGlvbi5jb21wb25lbnQuc2NzcyJ9 */"] });
 
 
 /***/ }),
