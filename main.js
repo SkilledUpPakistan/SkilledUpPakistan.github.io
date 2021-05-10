@@ -347,14 +347,13 @@ __webpack_require__.r(__webpack_exports__);
 const environment = {
     production: false,
     firebaseConfig: {
-        apiKey: "AIzaSyDT1vvsnK6BpkuzzTdplbDrPR5KNiCze0E",
-        authDomain: "waseem-ahmad-naeem.firebaseapp.com",
-        databaseURL: "https://waseem-ahmad-naeem.firebaseio.com",
-        projectId: "waseem-ahmad-naeem",
-        storageBucket: "waseem-ahmad-naeem.appspot.com",
-        messagingSenderId: "1073663441935",
-        appId: "1:1073663441935:web:b879cb0e2a5221c550b77a",
-        measurementId: "G-ZX056EPZJQ"
+        apiKey: "AIzaSyDiAZ7hSEp0YtvFKSy4Q5KpvG6KDKQuzDg",
+        authDomain: "sup-website-f44d1.firebaseapp.com",
+        databaseURL: "https://sup-website-f44d1.firebaseio.com",
+        projectId: "sup-website-f44d1",
+        storageBucket: "sup-website-f44d1.appspot.com",
+        messagingSenderId: "606851788048",
+        appId: "1:606851788048:web:566e69832f8ad0eb894995"
     }
 };
 /*
@@ -2879,7 +2878,7 @@ class HeaderComponent {
     }
 }
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_google_auth_service__WEBPACK_IMPORTED_MODULE_1__["GoogleAuthService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_fire_auth__WEBPACK_IMPORTED_MODULE_2__["AngularFireAuth"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__["AngularFirestore"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"])); };
-HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 72, vars: 2, consts: [[1, "navbar", "p-0"], [1, "container"], ["routerLink", "/user/home", 1, "navbar-brand"], ["src", "assets/images/logo.png", "alt", "Skilled up Pakistan Logo", "height", "130px", "srcset", ""], [1, "text-primary"], ["aria-hidden", "true", 1, "fa", "fa-phone"], ["href", "https://www.instagram.com/skilled_up_pakistan/"], [1, "fa", "fa-instagram"], ["href", "https://www.facebook.com/skilleduppakistan/"], [1, "fa", "fa-facebook"], ["href", "https://api.whatsapp.com/send?phone=923249893921"], [1, "fa", "fa-whatsapp"], [1, "navbar", "sticky-top", "navbar-expand-lg", "navbar-dark", "bg-primary", 2, "min-height", "60px"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mx-auto"], [1, "nav-item", "active"], ["routerLink", "/user/home", 1, "nav-link"], [1, "sr-only"], [1, "nav-item"], ["routerLink", "/user/terms-and-conditions", 1, "nav-link"], [1, "nav-item", "dropdown"], ["id", "navbarDropdown", "role", "button", "data-toggle", "dropdown", "aria-haspopup", "true", "aria-expanded", "false", 1, "nav-link", "dropdown-toggle"], ["aria-labelledby", "navbarDropdown", 1, "dropdown-menu"], ["routerLink", "/user/upcoming-courses", 1, "dropdown-item"], ["routerLink", "/user/admission-process", 1, "nav-link"], ["routerLink", "/user/faqs", 1, "nav-link"], ["routerLink", "/user/about-us", 1, "dropdown-item"], ["routerLink", "/user/ambassador-signup", 1, "dropdown-item"], ["href", "https://skilleduppakistan.blogspot.com/", 1, "nav-link"], ["id", "registrationDropdown", "role", "button", "data-toggle", "dropdown", "aria-haspopup", "true", "aria-expanded", "false", 1, "nav-link", "dropdown-toggle"], ["aria-labelledby", "registrationDropdown", 1, "dropdown-menu"], ["routerLink", "/user/student-registration", 1, "dropdown-item"], ["routerLink", "/user/marketing-partner", 1, "dropdown-item"], ["routerLink", "/user/contact-us", 1, "nav-link"], ["href", "https://docs.google.com/forms/d/1dv5a7v0JseSU3-xSgc9Qp5tJXcUVRWGKIr2J3zD2_M0/edit", 1, "nav-link"], ["class", "nav-item", 4, "ngIf"], ["routerLink", "/user/sign-in", 1, "nav-link"], [1, "nav-link", 3, "click"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 72, vars: 2, consts: [[1, "navbar", "p-0"], [1, "container"], ["routerLink", "/user/home", 1, "navbar-brand"], ["src", "assets/images/logo.png", "alt", "Skilled up Pakistan Logo", "height", "130px", "srcset", ""], [1, "text-primary"], ["aria-hidden", "true", 1, "fa", "fa-phone"], ["href", "https://www.instagram.com/skilled_up_pakistan/"], [1, "fa", "fa-instagram"], ["href", "https://www.facebook.com/skilleduppakistan/"], [1, "fa", "fa-facebook"], ["href", "https://api.whatsapp.com/send?phone=923249893921"], [1, "fa", "fa-whatsapp"], [1, "navbar", "sticky-top", "navbar-expand-lg", "navbar-dark", "bg-primary", 2, "min-height", "60px"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarSupportedContent", "aria-controls", "navbarSupportedContent", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarSupportedContent", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mx-auto"], [1, "nav-item", "active"], ["routerLink", "/user/home", 1, "nav-link"], [1, "sr-only"], [1, "nav-item"], ["routerLink", "/user/terms-and-conditions", 1, "nav-link"], ["href", "https://docs.google.com/forms/d/1dv5a7v0JseSU3-xSgc9Qp5tJXcUVRWGKIr2J3zD2_M0/edit", 1, "nav-link"], [1, "nav-item", "dropdown"], ["id", "navbarDropdown", "role", "button", "data-toggle", "dropdown", "aria-haspopup", "true", "aria-expanded", "false", 1, "nav-link", "dropdown-toggle"], ["aria-labelledby", "navbarDropdown", 1, "dropdown-menu"], ["routerLink", "/user/upcoming-courses", 1, "dropdown-item"], ["routerLink", "/user/admission-process", 1, "nav-link"], ["routerLink", "/user/faqs", 1, "nav-link"], ["routerLink", "/user/about-us", 1, "dropdown-item"], ["routerLink", "/user/ambassador-signup", 1, "dropdown-item"], ["href", "https://skilleduppakistan.blogspot.com/", 1, "nav-link"], ["id", "registrationDropdown", "role", "button", "data-toggle", "dropdown", "aria-haspopup", "true", "aria-expanded", "false", 1, "nav-link", "dropdown-toggle"], ["aria-labelledby", "registrationDropdown", 1, "dropdown-menu"], ["routerLink", "/user/student-registration", 1, "dropdown-item"], ["routerLink", "/user/marketing-partner", 1, "dropdown-item"], ["routerLink", "/user/contact-us", 1, "nav-link"], ["class", "nav-item", 4, "ngIf"], ["routerLink", "/user/sign-in", 1, "nav-link"], [1, "nav-link", 3, "click"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 2);
@@ -2929,65 +2928,65 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Apply Now");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "li", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "a", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, " Available Programs ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "a", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Upcoming Courses");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "li", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "a", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Fee Challan Verification");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "li", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "a", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, " Available Programs ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "li", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 25);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "a", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Admission Process");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Upcoming Courses");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "li", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "a", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "FAQ's");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Admission Process");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "li", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "a", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, " About ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "a", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "About Us");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "a", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Ambassador Sign-up");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "li", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "a", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "FAQ's");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "li", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "a", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, " About ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "li", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "a", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "About Us");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "a", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Blog");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Ambassador Sign-up");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "li", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "li", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "a", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, " Registration ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "a", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Student Registration");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "a", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Marketing Partner Registration");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Blog");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "li", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "a", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, " Registration ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "li", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "a", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](64, "Student Registration");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "a", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Contact Us");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Marketing Partner Registration");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "li", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "a", 36);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "Fee Challan Verification");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "Contact Us");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](70, HeaderComponent_li_70_Template, 3, 0, "li", 37);
@@ -3598,7 +3597,7 @@ class UpcomingCoursesComponent {
     }
 }
 UpcomingCoursesComponent.ɵfac = function UpcomingCoursesComponent_Factory(t) { return new (t || UpcomingCoursesComponent)(); };
-UpcomingCoursesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: UpcomingCoursesComponent, selectors: [["app-upcoming-courses"]], decls: 76, vars: 0, consts: [[1, "container"], [1, ""], [1, "row"], [1, "col-sm-12", "col-md-4", "col-lg-3"], [1, "card", "border-primary", "mt-3", 2, "width", "100%"], ["src", "https://www.tradingpedia.com/wp-content/uploads/2020/11/what-is-a-blockchain.svg", "height", "200px"], [1, "card-body"], [1, "card-title"], ["src", "https://miro.medium.com/max/1000/1*ilC2Aqp5sZd1wi0CopD1Hw.png", "height", "200px"], ["src", "https://www.tienda24hs.com/WebRoot/StoreES/Shops/62148069/5C1D/36D3/760A/32FB/4D05/0A0C/6D00/2F85/180210-gafas-vr-tienda24hs.jpg", "height", "200px"], ["src", "https://image.freepik.com/free-vector/virtual-reality-augmented-reality-technology-e-commerce-fashion-buy-new-clothes-with-modern-flat-style_82472-307.jpg", "height", "200px"], ["src", "https://i.pinimg.com/originals/e7/a3/d5/e7a3d509b9f4c581b5b7ddde93f44b35.png", "height", "200px"], ["src", "https://www.seguetech.com/wp-content/uploads/2013/02/segue-blog-the-project-managers-role-in-software-development.png", "height", "200px"], ["src", "https://dcid.sanford.duke.edu/wp-content/uploads/sites/7/2020/03/Importance-of-entrepreneurship.png", "height", "200px"], ["src", "https://www.repricerexpress.com/wp-content/uploads/2020/01/amazon-virtual-assistant.jpg", "height", "200px"], ["src", "https://newsroom.cisco.com/documents/10157/1890195/security_thumb_800x450_003_2.jpg", "height", "200px"], ["src", "https://www.ecommerce.net.pk/img/about/about.png", "height", "200px"], ["src", "https://miro.medium.com/max/5268/1*6w7tu4wnyyW5rxxUa8J-QQ.png", "height", "200px"]], template: function UpcomingCoursesComponent_Template(rf, ctx) { if (rf & 1) {
+UpcomingCoursesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: UpcomingCoursesComponent, selectors: [["app-upcoming-courses"]], decls: 148, vars: 0, consts: [[1, "container"], [1, ""], [1, "row"], [1, "col-sm-12", "col-md-4", "col-lg-3"], [1, "card", "border-primary", "mt-3", 2, "width", "100%"], ["src", "https://www.tradingpedia.com/wp-content/uploads/2020/11/what-is-a-blockchain.svg", "height", "200px"], [1, "card-body"], [1, "card-title"], ["src", "https://miro.medium.com/max/1000/1*ilC2Aqp5sZd1wi0CopD1Hw.png", "height", "200px"], ["src", "https://www.seguetech.com/wp-content/uploads/2013/02/segue-blog-the-project-managers-role-in-software-development.png", "height", "200px"], ["src", "https://newsroom.cisco.com/documents/10157/1890195/security_thumb_800x450_003_2.jpg", "height", "200px"], ["src", "https://www.ecommerce.net.pk/img/about/about.png", "height", "200px"], ["src", "https://miro.medium.com/max/5268/1*6w7tu4wnyyW5rxxUa8J-QQ.png", "height", "200px"], ["src", "https://www.mdirector.com/wp-content/uploads/2017/10/DIGITAL-MARKETING.jpg", "height", "200px"], ["src", "https://elearningindustry.com/wp-content/uploads/2019/09/elearning-graphic-design-best-practices.jpg", "height", "200px"], ["src", "https://s.w.org/images/backgrounds/wordpress-bg-medblue.png", "height", "200px"], ["src", "https://www.raghebnotes.com/wp-content/uploads/2017/08/office.jpg", "height", "200px"], ["src", "https://techcrunch.com/wp-content/uploads/2017/07/facebook-video-money.png?w=730&crop=1", "height", "200px"], ["src", "https://webcusp.com/wp-content/uploads/2018/11/hire-us.png", "height", "200px"], ["src", "https://www.oberlo.com/media/1603954182-seo-article-header.png?fit=max&fm=jpg&w=1824", "height", "200px"], ["src", "https://assets.entrepreneur.com/content/3x2/2000/20180117155526-youtube.jpeg?width=600&crop=16:9", "height", "200px"], ["src", "data:image/png;base64,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", "height", "200px"], ["src", "https://miro.medium.com/max/3006/1*lVfJFrxmv5WYXnfm7Tbf3A.png", "height", "200px"], ["src", "https://www.junglescout.com/wp-content/uploads/2021/02/blog_amz-advertising-guide_feature-img.jpg", "height", "200px"], ["src", "https://1.bp.blogspot.com/-OUS54qDqRSc/XkMmKR10zJI/AAAAAAAAR98/Y1ZAxx3wa1o_SS4CgGNLQMFpZEcCIXUaACLcBGAsYHQ/s1600/Research-Collaborative.jpg", "height", "200px"], ["src", "https://www.buzzprostudio.com/wp-content/uploads/2019/06/small-business-blogging.jpg", "height", "200px"], ["src", "https://sysvoy.com/wp-content/uploads/2020/12/aws-logo.png", "height", "200px"], ["src", "http://3and4ch.weebly.com/uploads/4/7/5/0/47508247/604402.jpg?426", "height", "200px"], ["src", "https://miro.medium.com/max/800/1*cDO5wuA0NdevLb45zHRvog.jpeg", "height", "200px"], ["src", "https://cdn2.vectorstock.com/i/1000x1000/08/01/event-management-concept-vector-23240801.jpg", "height", "200px"]], template: function UpcomingCoursesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "br");
@@ -3634,7 +3633,7 @@ UpcomingCoursesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "img", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "h6", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Virtual Reality (VR)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Project Management");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -3644,7 +3643,7 @@ UpcomingCoursesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "img", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "h6", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Augmented Reality");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Cyber");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -3654,7 +3653,7 @@ UpcomingCoursesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "img", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "h6", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Quality Assurance");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "E-Commerce");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -3664,7 +3663,7 @@ UpcomingCoursesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](40, "img", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "h6", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Project Management");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Affiliate marketing");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -3674,7 +3673,7 @@ UpcomingCoursesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](46, "img", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "h6", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Entrepreneurship");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Digital Marketing");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -3684,7 +3683,7 @@ UpcomingCoursesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "img", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "h6", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Virtual Assistant");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Graphic Designing");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -3694,7 +3693,7 @@ UpcomingCoursesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](58, "img", 15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "h6", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Cyber");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "WordPress");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -3704,7 +3703,7 @@ UpcomingCoursesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](64, "img", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "h6", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "E-Commerce");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Ms Office");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -3714,15 +3713,135 @@ UpcomingCoursesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](70, "img", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "h6", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "Affiliate marketing");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "Facebook Monetization");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](76, "img", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "h6", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, "Content Writing");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](82, "img", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "h6", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "SEO & SEM");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](88, "img", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "h6", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "Youtubing");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](94, "img", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "h6", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](97, "Social Media Marketing");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](100, "img", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "h6", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, "I.O.T");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](105, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](106, "img", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "h6", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "Amazon Guide");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](111, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](112, "img", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](114, "h6", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](115, "Educational Research & Assessment");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](118, "img", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](120, "h6", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](121, "Blogging");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](124, "img", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](126, "h6", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, "AWS Programs");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](130, "img", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](132, "h6", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](133, "Robotics");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](135, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](136, "img", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "h6", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](139, "Big Data");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](141, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](142, "img", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "h6", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](145, "Event Management");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](74, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](75, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](146, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](147, "br");
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ1cGNvbWluZy1jb3Vyc2VzLmNvbXBvbmVudC5zY3NzIn0= */"] });
 
 
