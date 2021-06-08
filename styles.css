@@ -25348,6 +25348,9 @@ nz-space-item {
 .cdk-overlay-backdrop.ant-image-preview-mask {
   opacity: 1;
 }
+.navbar {
+  font-size: 14px;
+}
 
 @charset "UTF-8";
 /**
