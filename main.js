@@ -1636,13 +1636,49 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "tyNb");
 
 
+const _c0 = ["demoButton"];
 class AppComponent {
+    ngOnInit() {
+        setTimeout(() => {
+            this.button.nativeElement.click();
+        }, 10);
+    }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 3, vars: 0, consts: [["href", "https://api.whatsapp.com/send?phone=923249893921", "target", "_blank", 1, "float"], [1, "fa", "fa-whatsapp", "my-float"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "router-outlet");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "i", 1);
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], viewQuery: function AppComponent_Query(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵviewQuery"](_c0, 1);
+    } if (rf & 2) {
+        let _t;
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.button = _t.first);
+    } }, decls: 19, vars: 0, consts: [["type", "button", "data-toggle", "modal", "data-target", "#exampleModal", 1, "btn", 2, "z-index", "-100", "display", "none"], ["demoButton", ""], ["href", "https://api.whatsapp.com/send?phone=923249893921", "target", "_blank", 1, "float"], [1, "fa", "fa-whatsapp", "my-float"], ["id", "exampleModal", "tabindex", "-1", "aria-labelledby", "exampleModalLabel", "aria-hidden", "true", 1, "modal", "fade"], [1, "modal-dialog"], [1, "modal-content"], [1, "modal-header"], ["id", "exampleModalLabel", 1, "modal-title"], ["type", "button", "data-dismiss", "modal", "aria-label", "Close", 1, "close"], ["aria-hidden", "true"], [1, "modal-body"], [1, "modal-footer"], ["type", "button", "data-dismiss", "modal", 1, "btn", "btn-secondary"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "button", 0, 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "i", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "h5", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "SkilledUp Pakistan Admission Started");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "button", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "span", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "\u00D7");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " Admissions are now open across all Provinces of Pakistan & for Overseas Applicants. For any queries you may contact SkilledUp Pakistan ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "button", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Okay");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LnNjc3MifQ== */"] });
 
@@ -2579,7 +2615,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function ApplyNowComponent_option_36_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "option", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "option", 29);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -2602,7 +2638,8 @@ class ApplyNowComponent {
             referralId: new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControl"](null),
             address: new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["Validators"].required]),
             education: new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["Validators"].required]),
-            courses: new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["Validators"].required])
+            courses: new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["Validators"].required]),
+            type: new _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControl"](null, [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["Validators"].required])
         });
         this.courses = [];
     }
@@ -2624,7 +2661,7 @@ class ApplyNowComponent {
     }
 }
 ApplyNowComponent.ɵfac = function ApplyNowComponent_Factory(t) { return new (t || ApplyNowComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_apply_now_firebase_service__WEBPACK_IMPORTED_MODULE_2__["ApplyNowFirebaseService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_fire_firestore__WEBPACK_IMPORTED_MODULE_3__["AngularFirestore"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"])); };
-ApplyNowComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: ApplyNowComponent, selectors: [["app-apply-now"]], decls: 55, vars: 10, consts: [[1, "container"], [1, "row", "justify-content-center"], [1, "col-sm-12", "col-md-6", "col-lg-6"], [3, "formGroup"], [1, "form-group"], ["for", "name"], ["type", "text", "name", "name", "formControlName", "name", "placeholder", "Name", "id", "name", 1, "form-control", 3, "ngClass"], ["for", "fatherName"], ["type", "text", "name", "fatherName", "id", "fatherName", "formControlName", "fatherName", "placeholder", "Father's Name", 1, "form-control", 3, "ngClass"], ["for", "cnic"], ["type", "text", "name", "cnic", "id", "cnic", "formControlName", "cnic", "placeholder", "XXXXX-XXXXXXX-X", 1, "form-control", 3, "ngClass"], [1, "form-text", "text-muted"], ["for", "phone"], ["type", "text", "name", "phone", "id", "phone", "formControlName", "phone", "placeholder", "Phone Number", 1, "form-control", 3, "ngClass"], ["for", "email"], ["type", "email", "name", "email", "id", "email", "formControlName", "emailAddress", "placeholder", "Email Address", 1, "form-control", 3, "ngClass"], ["for", "courses"], ["id", "courses", "formControlName", "courses", "name", "courses", "size", "4", "multiple", "", 1, "form-control"], [3, "value", 4, "ngFor", "ngForOf"], ["type", "email", "name", "refferal", "id", "refferal", "formControlName", "referralId", "placeholder", "Refferal Id", 1, "form-control"], ["for", "address"], ["name", "address", "formControlName", "address", "id", "address", "cols", "30", "rows", "10", "placeholder", "Address", 1, "form-control", 3, "ngClass"], ["for", "education"], ["type", "text", "name", "education", "formControlName", "education", "placeholder", "Education", "id", "education", 1, "form-control", 3, "ngClass"], ["id", "btnAdmission", 1, "btn", "btn-primary", 3, "disabled", "click"], [3, "value"]], template: function ApplyNowComponent_Template(rf, ctx) { if (rf & 1) {
+ApplyNowComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: ApplyNowComponent, selectors: [["app-apply-now"]], decls: 63, vars: 10, consts: [[1, "container"], [1, "row", "justify-content-center"], [1, "col-sm-12", "col-md-6", "col-lg-6"], [3, "formGroup"], [1, "form-group"], ["for", "name"], ["type", "text", "name", "name", "formControlName", "name", "placeholder", "Name", "id", "name", 1, "form-control", 3, "ngClass"], ["for", "fatherName"], ["type", "text", "name", "fatherName", "id", "fatherName", "formControlName", "fatherName", "placeholder", "Father's Name", 1, "form-control", 3, "ngClass"], ["for", "cnic"], ["type", "text", "name", "cnic", "id", "cnic", "formControlName", "cnic", "placeholder", "XXXXX-XXXXXXX-X", 1, "form-control", 3, "ngClass"], [1, "form-text", "text-muted"], ["for", "phone"], ["type", "text", "name", "phone", "id", "phone", "formControlName", "phone", "placeholder", "Phone Number", 1, "form-control", 3, "ngClass"], ["for", "email"], ["type", "email", "name", "email", "id", "email", "formControlName", "emailAddress", "placeholder", "Email Address", 1, "form-control", 3, "ngClass"], ["for", "courses"], ["id", "courses", "formControlName", "courses", "name", "courses", "size", "4", "multiple", "", 1, "form-control"], [3, "value", 4, "ngFor", "ngForOf"], ["type", "email", "name", "refferal", "id", "refferal", "formControlName", "referralId", "placeholder", "Refferal Id", 1, "form-control"], ["for", "address"], ["name", "address", "formControlName", "address", "id", "address", "cols", "30", "rows", "10", "placeholder", "Address", 1, "form-control", 3, "ngClass"], ["for", "education"], ["type", "text", "name", "education", "formControlName", "education", "placeholder", "Education", "id", "education", 1, "form-control", 3, "ngClass"], ["for", "type"], ["name", "type", "id", "type", 1, "form-control"], ["value", "OnSite"], ["value", "Online"], ["id", "btnAdmission", 1, "btn", "btn-primary", 3, "disabled", "click"], [3, "value"]], template: function ApplyNowComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "article", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "br");
@@ -2697,18 +2734,31 @@ ApplyNowComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](48, "input", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](49, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](50, "button", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function ApplyNowComponent_Template_button_click_50_listener() { return ctx.create(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](51, " Submit ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](49, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](50, "label", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](51, "Type");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](52, "select", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](53, "option", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](54, "OnSite");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](55, "option", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](56, "Online");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](57, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](58, "button", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function ApplyNowComponent_Template_button_click_58_listener() { return ctx.create(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](59, " Submit ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](52, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](53, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](54, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](60, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](61, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](62, "br");
     } if (rf & 2) {
         let tmp_1_0 = null;
         let tmp_2_0 = null;
@@ -2735,7 +2785,7 @@ ApplyNowComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", (ctx.applyNowForm == null ? null : (tmp_7_0 = ctx.applyNowForm.get("address")) == null ? null : tmp_7_0.invalid) && (ctx.applyNowForm == null ? null : (tmp_7_0 = ctx.applyNowForm.get("address")) == null ? null : tmp_7_0.dirty) ? "is-invalid" : "");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", (ctx.applyNowForm == null ? null : (tmp_8_0 = ctx.applyNowForm.get("education")) == null ? null : tmp_8_0.invalid) && (ctx.applyNowForm == null ? null : (tmp_8_0 = ctx.applyNowForm.get("education")) == null ? null : tmp_8_0.dirty) ? "is-invalid" : "");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](10);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("disabled", ctx.applyNowForm.invalid);
     } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["ɵangular_packages_forms_forms_ba"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgClass"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["SelectMultipleControlValueAccessor"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["NgSelectOption"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["ɵangular_packages_forms_forms_z"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHBseS1ub3cuY29tcG9uZW50LnNjc3MifQ== */"] });
 
